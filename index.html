@@ -62,7 +62,7 @@
             let message = document.getElementById("message").value;
 
             if(receiverName.length != 0 && senderName.length != 0 && senderEmailAddress.length != 0 && message.length != 0) {
-                emailjs.send("service_dv6k0qe","template_yntmq8a",{
+                emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID',{
                     to_name: receiverName,
                     from_name: senderName,
                     message: message,
